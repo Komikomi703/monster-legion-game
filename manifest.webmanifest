@@ -1,0 +1,41 @@
+{
+  "id": "./",
+  "name": "MONSTER LEGION — モンスター・レギオン",
+  "short_name": "Monster Legion",
+  "lang": "ja",
+  "description": "倒した敵が仲間になる軍団サバイバル",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0a1516",
+  "theme_color": "#0a1516",
+  "categories": [
+    "games",
+    "entertainment"
+  ],
+  "screenshots": [
+    {"src":"screenshots/camp-mobile.webp","sizes":"390x844","type":"image/webp","form_factor":"narrow","label":"スマートフォンでの冒険の拠点"},
+    {"src":"screenshots/camp-desktop.webp","sizes":"1400x900","type":"image/webp","form_factor":"wide","label":"冒険の拠点とステージ選択"}
+  ],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
