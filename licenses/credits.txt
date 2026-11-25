@@ -4,7 +4,7 @@
 | --- | --- | --- |
 | ゲームコード、UI、タイトルロゴ、アプリアイコン | 本プロジェクト。画素単位で定義した字形と図案 | MIT。著作権表示と許諾文を同梱 |
 | 戦闘キャラクター、図鑑の肖像、地形、エフェクト | 本プロジェクト。Canvasで輪郭と色面を描き、戦闘開始時にテクスチャ化 | MIT。著作権表示と許諾文を同梱 |
-| 森のキービジュアル、3ステージの景観 | 本プロジェクト用に内蔵ImageGenで新規生成。WebP変換とトリミングを実施 | 本プロジェクトの権利の範囲でMITと同条件で利用・改変・再配布可 |
+| 森のキービジュアル、全10ステージの景観 | 本プロジェクト用に内蔵ImageGenで新規生成。WebP変換とトリミングを実施 | 本プロジェクトの権利の範囲でMITと同条件で利用・改変・再配布可 |
 | BGM・効果音 | 本プロジェクト独自の旋律とWeb Audioの合成音。外部サンプル音源の使用なし | MIT。音型は src/battle/audio.ts に収録 |
 | Phaser 3.90.0 | Richard Davey、Phaser Studio Inc. | MIT。配布物に licenses/phaser.txt を同梱 |
 | EventEmitter3 | EventEmitter3 contributors | MIT。配布物に licenses/eventemitter3.txt を同梱 |

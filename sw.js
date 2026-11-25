@@ -2,10 +2,10 @@
 
 // Release preparation replaces these two literals with the exact distribution inventory.
 const prefix = 'monster-legion:' + self.registration.scope + ':'
-const version = prefix + '297d2bb6d952cf46'
+const version = prefix + '8b4971fce785fb8f'
 const root = new URL(self.registration.scope)
 const index = new URL('index.html', root).href
-const paths = new Set(["art/book.png","art/clock.png","art/coin.png","art/crown.png","art/fire.png","art/flag.png","art/gem.png","art/group.png","art/help.png","art/legion-forest.webp","art/lock.png","art/map.png","art/muted.png","art/settings.png","art/speaker.png","art/stage-1.webp","art/stage-2.webp","art/stage-3.webp","art/star.png","art/sword.png","art/swords.png","art/title.png","art/trophy.png","assets/battle-DKvmeRNP.js","assets/battle-Ddqv364U.css","assets/index-CpNoQnzw.css","assets/index-w9pr_k17.js","icons/apple-touch-icon.png","icons/icon-192.png","icons/icon-512.png","icons/maskable.png","index.html","licenses/credits.txt","licenses/eventemitter3.txt","licenses/monster-legion.txt","licenses/phaser.txt","manifest.webmanifest","privacy.txt","screenshots/camp-desktop.webp","screenshots/camp-mobile.webp"].map((path) => new URL(path, root).href))
+const paths = new Set(["art/book.png","art/clock.png","art/coin.png","art/crown.png","art/fire.png","art/flag.png","art/gem.png","art/group.png","art/help.png","art/legion-forest.webp","art/lock.png","art/map.png","art/muted.png","art/settings.png","art/speaker.png","art/stage-1.webp","art/stage-10.webp","art/stage-2.webp","art/stage-3.webp","art/stage-4.webp","art/stage-5.webp","art/stage-6.webp","art/stage-7.webp","art/stage-8.webp","art/stage-9.webp","art/star.png","art/sword.png","art/swords.png","art/title.png","art/trophy.png","assets/battle-BAIYGzJe.js","assets/battle-Ddqv364U.css","assets/index-BMo0jEds.js","assets/index-BZuW9cIu.css","icons/apple-touch-icon.png","icons/icon-192.png","icons/icon-512.png","icons/maskable.png","index.html","licenses/credits.txt","licenses/eventemitter3.txt","licenses/monster-legion.txt","licenses/phaser.txt","manifest.webmanifest","privacy.txt","screenshots/camp-desktop.webp","screenshots/camp-mobile.webp"].map((path) => new URL(path, root).href))
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
